@@ -55,7 +55,7 @@
                     }
 				});
 
-				var host = "http://localhost"; // get current base url
+				var host = "http://" + location.host;
 				var url = host.concat("/calendar/", values["apiKey"], "/", values["vCode"], "/", values["charId"],
 								      "/calendar.ics?showSkillQueue=", showQueue,
                                       "&showQueueReminder=", showQueueReminder);
