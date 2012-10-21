@@ -75,7 +75,7 @@ class SkillQueue
       dtend       end_time
       summary     summary_text
       description description_text
-      klass       "PRIVATE"
+      klass       "PUBLIC"
       if set_reminder
           alarm do
             action        "DISPLAY"
